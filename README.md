@@ -1,4 +1,4 @@
-# ThreadSafeBank
+# VaultSync
 
 ThreadSafeBank is a **concurrent, in-memory banking system written in C++17**. It was built to explore practical multithreading concepts such as race conditions, fine-grained locking, deadlock prevention, condition variables, RAII-based lock management, and safe object ownership.
 
