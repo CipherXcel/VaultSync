@@ -147,10 +147,19 @@ On Windows with MinGW/MSYS2:
 ```powershell
 g++ -std=c++17 -pthread -Iinclude src\main.cpp src\ReaderWriterLock.cpp src\Account.cpp src\Transaction.cpp src\TransactionLog.cpp src\BankService.cpp -o bank.exe
 ```
-
+Or simply double-click or run `build.bat`:
+```cmd
+build.bat
+```
 ---
+## One-Click Build & Run (Windows)
+Double-click `run.bat` (or execute `.\run.bat` or `.\run.ps1`):
+```cmd
+run.bat
+```
+This automatically finds `g++`, compiles the project, and launches the interactive CLI in your terminal.
 
-## Run
+## Manual Run
 
 Linux/macOS:
 
